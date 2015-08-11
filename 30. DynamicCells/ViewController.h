@@ -7,10 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
-
+typedef NS_ENUM(NSInteger, StudentValue){
+    StudentValueFive,
+    StudentValueFour,
+    StudentValueThree,
+    StudentValueTwo
+};
 @interface ViewController : UIViewController <UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (strong,nonatomic) NSMutableArray* arrayOfStudents;
+@property (strong,nonatomic) NSMutableArray* arrayOfFiveStudents;
+@property (strong,nonatomic) NSMutableArray* arrayOfFourStudents;
+@property (strong,nonatomic) NSMutableArray* arrayOfThreeStudents;
+@property (strong,nonatomic) NSMutableArray* arrayOfTwoStudents;
+@property (strong,nonatomic) NSMutableArray* arrayOfTeachers;
+
 
 @end
 

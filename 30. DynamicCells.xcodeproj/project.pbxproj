@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84EE03331B7A9CD5007BC9DB /* NVStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE03321B7A9CD5007BC9DB /* NVStudent.m */; };
+		84EE03361B7AAAB5007BC9DB /* NVTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE03351B7AAAB5007BC9DB /* NVTeacher.m */; };
 		84F580321B79800400687331 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F580311B79800400687331 /* main.m */; };
 		84F580351B79800400687331 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F580341B79800400687331 /* AppDelegate.m */; };
 		84F580381B79800400687331 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F580371B79800400687331 /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84EE03311B7A9CD5007BC9DB /* NVStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVStudent.h; sourceTree = "<group>"; };
+		84EE03321B7A9CD5007BC9DB /* NVStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVStudent.m; sourceTree = "<group>"; };
+		84EE03341B7AAAB5007BC9DB /* NVTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVTeacher.h; sourceTree = "<group>"; };
+		84EE03351B7AAAB5007BC9DB /* NVTeacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVTeacher.m; sourceTree = "<group>"; };
 		84F5802C1B79800400687331 /* 30. DynamicCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "30. DynamicCells.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F580301B79800400687331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84F580311B79800400687331 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +91,10 @@
 				84F580341B79800400687331 /* AppDelegate.m */,
 				84F580361B79800400687331 /* ViewController.h */,
 				84F580371B79800400687331 /* ViewController.m */,
+				84EE03341B7AAAB5007BC9DB /* NVTeacher.h */,
+				84EE03351B7AAAB5007BC9DB /* NVTeacher.m */,
+				84EE03311B7A9CD5007BC9DB /* NVStudent.h */,
+				84EE03321B7A9CD5007BC9DB /* NVStudent.m */,
 				84F580391B79800400687331 /* Main.storyboard */,
 				84F5803C1B79800400687331 /* Images.xcassets */,
 				84F5803E1B79800400687331 /* LaunchScreen.xib */,
@@ -220,7 +230,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F580381B79800400687331 /* ViewController.m in Sources */,
+				84EE03331B7A9CD5007BC9DB /* NVStudent.m in Sources */,
 				84F580351B79800400687331 /* AppDelegate.m in Sources */,
+				84EE03361B7AAAB5007BC9DB /* NVTeacher.m in Sources */,
 				84F580321B79800400687331 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +430,7 @@
 				84F580511B79800500687331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84F580521B79800500687331 /* Build configuration list for PBXNativeTarget "30. DynamicCellsTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				84F580541B79800500687331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
